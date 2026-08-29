@@ -1,0 +1,65 @@
+container_id,cargo_type,origin_port,transit_hour,spoilage_risk_index,estimated_hours_to_spoilage,remaining_hours_to_primary,at_risk_flag,primary_market,primary_price,degraded_primary_value_usd_per_ton,secondary_market,secondary_price,hours_to_reach_secondary,secondary_reachable_in_time,spoilage_arbitrage_usd_per_ton,recommendation
+ASP-008,Asparagus,Tangier,95,100.0,8.0,35,true,Marseille,2900,664.1,Genoa,2820,20.0,false,2155.9,AT RISK - no viable reroute in time
+BLU-005,Blueberries,Lima,95,83.8,14.5,35,true,Miami,3600,1490.4,Tampa,3450,16.5,false,1959.6,AT RISK - no viable reroute in time
+STR-008,Strawberries,Huelva,95,80.6,15.8,35,true,Paris,3100,1395.0,Lyon,2950,23.0,false,1555.0,AT RISK - no viable reroute in time
+SAL-002,Salmon,Bergen,95,66.7,21.3,35,true,Boston,4200,2557.8,Portland,4050,8.5,true,1492.2,REROUTE to Portland
+GRA-003,Grapes,Valparaiso,95,82.2,15.1,35,true,New York,2600,1123.2,Newark,2540,1.3,true,1416.8,REROUTE to Newark
+AVO-004,Avocados,Mombasa,95,83.3,14.7,35,true,Rotterdam,2400,1005.6,Antwerp,2280,4.5,true,1274.4,REROUTE to Antwerp
+MAN-002,Mangoes,Karachi,95,90.2,11.9,35,true,Dubai,1800,613.8,Abu Dhabi,1750,7.0,true,1136.2,REROUTE to Abu Dhabi
+ASP-005,Asparagus,Tangier,95,64.5,22.2,35,true,Marseille,2900,1838.6,Genoa,2820,20.0,true,981.4,REROUTE to Genoa
+AVO-005,Avocados,Mombasa,95,71.7,19.3,35,true,Rotterdam,2400,1324.8,Antwerp,2280,4.5,true,955.2,REROUTE to Antwerp
+AVO-007,Avocados,Mombasa,95,67.0,21.2,35,true,Rotterdam,2400,1454.4,Antwerp,2280,4.5,true,825.6,REROUTE to Antwerp
+BAN-002,Bananas,Guayaquil,95,64.3,22.3,35,true,Hamburg,950,605.15,Bremerhaven,910,6.0,true,304.85,REROUTE to Bremerhaven
+BAN-005,Bananas,Guayaquil,95,6.4,45.4,35,false,Hamburg,950,950.0,Bremerhaven,910,6.0,true,-40.0,ON TRACK - continue to Hamburg
+BAN-004,Bananas,Guayaquil,95,6.2,45.5,35,false,Hamburg,950,950.0,Bremerhaven,910,6.0,true,-40.0,ON TRACK - continue to Hamburg
+BAN-006,Bananas,Guayaquil,95,6.7,45.3,35,false,Hamburg,950,950.0,Bremerhaven,910,6.0,true,-40.0,ON TRACK - continue to Hamburg
+BAN-007,Bananas,Guayaquil,95,5.5,45.8,35,false,Hamburg,950,950.0,Bremerhaven,910,6.0,true,-40.0,ON TRACK - continue to Hamburg
+BAN-008,Bananas,Guayaquil,95,6.8,45.3,35,false,Hamburg,950,950.0,Bremerhaven,910,6.0,true,-40.0,ON TRACK - continue to Hamburg
+BAN-003,Bananas,Guayaquil,95,7.4,45.0,35,false,Hamburg,950,950.0,Bremerhaven,910,6.0,true,-40.0,ON TRACK - continue to Hamburg
+BAN-001,Bananas,Guayaquil,95,6.8,45.3,35,false,Hamburg,950,950.0,Bremerhaven,910,6.0,true,-40.0,ON TRACK - continue to Hamburg
+MAN-008,Mangoes,Karachi,95,6.5,45.4,35,false,Dubai,1800,1800.0,Abu Dhabi,1750,7.0,true,-50.0,ON TRACK - continue to Dubai
+MAN-003,Mangoes,Karachi,95,6.5,45.4,35,false,Dubai,1800,1800.0,Abu Dhabi,1750,7.0,true,-50.0,ON TRACK - continue to Dubai
+MAN-004,Mangoes,Karachi,95,5.1,46.0,35,false,Dubai,1800,1800.0,Abu Dhabi,1750,7.0,true,-50.0,ON TRACK - continue to Dubai
+MAN-005,Mangoes,Karachi,95,6.8,45.3,35,false,Dubai,1800,1800.0,Abu Dhabi,1750,7.0,true,-50.0,ON TRACK - continue to Dubai
+MAN-006,Mangoes,Karachi,95,5.8,45.7,35,false,Dubai,1800,1800.0,Abu Dhabi,1750,7.0,true,-50.0,ON TRACK - continue to Dubai
+MAN-007,Mangoes,Karachi,95,5.8,45.7,35,false,Dubai,1800,1800.0,Abu Dhabi,1750,7.0,true,-50.0,ON TRACK - continue to Dubai
+MAN-001,Mangoes,Karachi,95,6.5,45.4,35,false,Dubai,1800,1800.0,Abu Dhabi,1750,7.0,true,-50.0,ON TRACK - continue to Dubai
+GRA-001,Grapes,Valparaiso,95,6.0,45.6,35,false,New York,2600,2600.0,Newark,2540,1.3,true,-60.0,ON TRACK - continue to New York
+GRA-002,Grapes,Valparaiso,95,5.4,45.8,35,false,New York,2600,2600.0,Newark,2540,1.3,true,-60.0,ON TRACK - continue to New York
+GRA-004,Grapes,Valparaiso,95,7.0,45.2,35,false,New York,2600,2600.0,Newark,2540,1.3,true,-60.0,ON TRACK - continue to New York
+GRA-005,Grapes,Valparaiso,95,6.5,45.4,35,false,New York,2600,2600.0,Newark,2540,1.3,true,-60.0,ON TRACK - continue to New York
+GRA-006,Grapes,Valparaiso,95,6.5,45.4,35,false,New York,2600,2600.0,Newark,2540,1.3,true,-60.0,ON TRACK - continue to New York
+GRA-007,Grapes,Valparaiso,95,6.6,45.4,35,false,New York,2600,2600.0,Newark,2540,1.3,true,-60.0,ON TRACK - continue to New York
+GRA-008,Grapes,Valparaiso,95,6.3,45.5,35,false,New York,2600,2600.0,Newark,2540,1.3,true,-60.0,ON TRACK - continue to New York
+ASP-007,Asparagus,Tangier,95,6.7,45.3,35,false,Marseille,2900,2900.0,Genoa,2820,20.0,true,-80.0,ON TRACK - continue to Marseille
+ASP-006,Asparagus,Tangier,95,6.3,45.5,35,false,Marseille,2900,2900.0,Genoa,2820,20.0,true,-80.0,ON TRACK - continue to Marseille
+ASP-004,Asparagus,Tangier,95,6.2,45.5,35,false,Marseille,2900,2900.0,Genoa,2820,20.0,true,-80.0,ON TRACK - continue to Marseille
+ASP-003,Asparagus,Tangier,95,5.8,45.7,35,false,Marseille,2900,2900.0,Genoa,2820,20.0,true,-80.0,ON TRACK - continue to Marseille
+ASP-002,Asparagus,Tangier,95,7.9,44.8,35,false,Marseille,2900,2900.0,Genoa,2820,20.0,true,-80.0,ON TRACK - continue to Marseille
+ASP-001,Asparagus,Tangier,95,7.1,45.2,35,false,Marseille,2900,2900.0,Genoa,2820,20.0,true,-80.0,ON TRACK - continue to Marseille
+AVO-001,Avocados,Mombasa,95,5.8,45.7,35,false,Rotterdam,2400,2400.0,Antwerp,2280,4.5,true,-120.0,ON TRACK - continue to Rotterdam
+AVO-002,Avocados,Mombasa,95,7.9,44.8,35,false,Rotterdam,2400,2400.0,Antwerp,2280,4.5,true,-120.0,ON TRACK - continue to Rotterdam
+AVO-003,Avocados,Mombasa,95,5.5,45.8,35,false,Rotterdam,2400,2400.0,Antwerp,2280,4.5,true,-120.0,ON TRACK - continue to Rotterdam
+AVO-008,Avocados,Mombasa,95,6.8,45.3,35,false,Rotterdam,2400,2400.0,Antwerp,2280,4.5,true,-120.0,ON TRACK - continue to Rotterdam
+AVO-006,Avocados,Mombasa,95,6.4,45.4,35,false,Rotterdam,2400,2400.0,Antwerp,2280,4.5,true,-120.0,ON TRACK - continue to Rotterdam
+SAL-006,Salmon,Bergen,95,6.2,45.5,35,false,Boston,4200,4200.0,Portland,4050,8.5,true,-150.0,ON TRACK - continue to Boston
+SAL-005,Salmon,Bergen,95,6.4,45.4,35,false,Boston,4200,4200.0,Portland,4050,8.5,true,-150.0,ON TRACK - continue to Boston
+STR-005,Strawberries,Huelva,95,6.0,45.6,35,false,Paris,3100,3100.0,Lyon,2950,23.0,true,-150.0,ON TRACK - continue to Paris
+SAL-007,Salmon,Bergen,95,4.9,46.0,35,false,Boston,4200,4200.0,Portland,4050,8.5,true,-150.0,ON TRACK - continue to Boston
+SAL-008,Salmon,Bergen,95,7.1,45.2,35,false,Boston,4200,4200.0,Portland,4050,8.5,true,-150.0,ON TRACK - continue to Boston
+BLU-001,Blueberries,Lima,95,4.9,46.0,35,false,Miami,3600,3600.0,Tampa,3450,16.5,true,-150.0,ON TRACK - continue to Miami
+BLU-002,Blueberries,Lima,95,5.3,45.9,35,false,Miami,3600,3600.0,Tampa,3450,16.5,true,-150.0,ON TRACK - continue to Miami
+BLU-003,Blueberries,Lima,95,5.6,45.8,35,false,Miami,3600,3600.0,Tampa,3450,16.5,true,-150.0,ON TRACK - continue to Miami
+BLU-004,Blueberries,Lima,95,7.0,45.2,35,false,Miami,3600,3600.0,Tampa,3450,16.5,true,-150.0,ON TRACK - continue to Miami
+SAL-004,Salmon,Bergen,95,6.9,45.2,35,false,Boston,4200,4200.0,Portland,4050,8.5,true,-150.0,ON TRACK - continue to Boston
+BLU-006,Blueberries,Lima,95,5.8,45.7,35,false,Miami,3600,3600.0,Tampa,3450,16.5,true,-150.0,ON TRACK - continue to Miami
+BLU-007,Blueberries,Lima,95,6.0,45.6,35,false,Miami,3600,3600.0,Tampa,3450,16.5,true,-150.0,ON TRACK - continue to Miami
+BLU-008,Blueberries,Lima,95,7.0,45.2,35,false,Miami,3600,3600.0,Tampa,3450,16.5,true,-150.0,ON TRACK - continue to Miami
+SAL-003,Salmon,Bergen,95,6.0,45.6,35,false,Boston,4200,4200.0,Portland,4050,8.5,true,-150.0,ON TRACK - continue to Boston
+SAL-001,Salmon,Bergen,95,6.8,45.3,35,false,Boston,4200,4200.0,Portland,4050,8.5,true,-150.0,ON TRACK - continue to Boston
+STR-001,Strawberries,Huelva,95,8.9,44.4,35,false,Paris,3100,3100.0,Lyon,2950,23.0,true,-150.0,ON TRACK - continue to Paris
+STR-002,Strawberries,Huelva,95,6.9,45.2,35,false,Paris,3100,3100.0,Lyon,2950,23.0,true,-150.0,ON TRACK - continue to Paris
+STR-007,Strawberries,Huelva,95,7.2,45.1,35,false,Paris,3100,3100.0,Lyon,2950,23.0,true,-150.0,ON TRACK - continue to Paris
+STR-006,Strawberries,Huelva,95,5.8,45.7,35,false,Paris,3100,3100.0,Lyon,2950,23.0,true,-150.0,ON TRACK - continue to Paris
+STR-004,Strawberries,Huelva,95,7.1,45.2,35,false,Paris,3100,3100.0,Lyon,2950,23.0,true,-150.0,ON TRACK - continue to Paris
+STR-003,Strawberries,Huelva,95,7.2,45.1,35,false,Paris,3100,3100.0,Lyon,2950,23.0,true,-150.0,ON TRACK - continue to Paris
