@@ -1,0 +1,18 @@
+version: 2
+
+models:
+  - name: container_health_snapshot
+    description: "Latest rolling health snapshot per container with a computed Spoilage Risk Index."
+    columns:
+      - name: container_id
+        tests: [unique, not_null]
+      - name: spoilage_risk_index
+        tests: [not_null]
+
+  - name: spoilage_arbitrage
+    description: "Core business metric: whether each container should reroute to a secondary market to avoid spoilage losses."
+    columns:
+      - name: container_id
+        tests: [unique, not_null]
+      - name: recommendation
+        tests: [not_null]
